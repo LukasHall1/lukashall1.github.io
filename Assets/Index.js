@@ -24,6 +24,7 @@
                             <div class="col-lg-8"><h3><span>Software Developer</span></h3></div>
                             
                         </div>
+                        <p>Placeholder image</p>
                             <img class="img-fluid" src="Assets/Media/headShot.png"/>
                             <div class="row">
                                 <div class="col-3">
