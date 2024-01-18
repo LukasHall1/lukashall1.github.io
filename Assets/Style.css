@@ -1,0 +1,109 @@
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0 5%;
+}
+
+/*background gif */
+.body-overlay{
+    opacity: .2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/*contact card */
+.contact-card{
+    max-width: 488px;
+    border: 1px solid #fff;
+    border-radius: 25px;       
+    /*margin: auto;   
+    margin-top: 10vh;*/        
+    text-align: center;
+    padding: 0 10px;
+    position: fixed;
+
+}.contact-card:hover{
+    border-color: #e44113;
+}
+.contact-card img{
+    max-height: 500px;
+    border-radius: 20px;
+}
+.contact-card i{
+    font-size: 25px;
+}.contact-card>div{
+    padding: 10px 0;
+}
+@media only screen and (min-width: 992px) {
+    .contact-card{
+        width: 25%;
+        top: 10%;
+        left: 2%;        
+        position: fixed;
+        margin-top: 0;
+    }
+    
+}
+
+
+/*subheader thing */
+span{
+    color: #e44113;
+    font-size: .8em;
+    font-weight: 800;
+}
+
+/*recoloring the icons */
+.fa-solid {
+    color: #e44113;
+}
+
+.fa-brands {
+    color: #e44113;
+}
+
+/*section stuff */
+section{
+    padding: 0 0 20% 0;
+}
+
+.section-title{
+    border-radius:20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: fit-content;
+    font-size: 16px;
+    margin-bottom: 5%;
+
+} .section-title:hover{
+    border-color: #e44113;
+}
+
+/*skill card */
+.specialization-card{
+    border-radius: 25px;
+    border: 1px solid #fff;
+    padding: 2%;
+    margin-bottom: 10px;
+} .specialization-card:hover{
+    border-color: #e44113;
+}
+.specialization-card .col-lg-3{
+    text-align: center;
+}
+
+/*collapsible*/
+.collapsible {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}

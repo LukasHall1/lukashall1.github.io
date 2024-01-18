@@ -1,0 +1,77 @@
+body{
+    background-color: #000000;
+    color: #fff;
+    margin: 0 5%;
+    
+}
+
+/*subheader thing */
+span{
+    color: #e44113;
+    font-size: .8em;
+    font-weight: 800;
+}
+
+/*recoloring the icons */
+.fa-solid {
+    color: #e44113;
+}
+
+.fa-brands {
+    color: #e44113;
+}
+
+/*section stuff */
+section{
+    padding: 0 0 20% 0;
+}
+
+/*background image */
+.body-overlay{
+    opacity: .2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* "gallery" */
+.resize {
+    text-align: center;
+}
+
+.resize img{
+    max-width: 500px;
+    max-height: 250px;
+    margin-top: 10px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.gallery-image img{
+    max-width: 420px;
+    max-height: 210px;
+}
+
+/*Putting text in box */
+#textBox {
+    background-color: rgba(85, 84, 84, 0.8);
+    border-color: #e44113;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+
+
+/*return to main page link */
+#returnLink a{
+    text-decoration: none;
+}
+
+#returnLink a:hover{
+    background-color: rgba(85, 84, 84, 1);
+}
