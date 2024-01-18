@@ -17,14 +17,14 @@
             <div class="row">
                 {/* contact card */}
                 <div class="col-3">
-                    <img class="body-overlay" src="Media/Volcano.gif"></img>
+                    <img class="body-overlay" src="Assets/Media/Volcano.gif"></img>
                     <div class="contact-card" >
                         <div class="row">
                             <div class="col-lg-4"><h3>Lukas:</h3></div>
                             <div class="col-lg-8"><h3><span>Software Developer</span></h3></div>
                             
                         </div>
-                            <img class="img-fluid" src="Media/headShot.png"/>
+                            <img class="img-fluid" src="Assets/Media/headShot.png"/>
                             <div class="row">
                                 <div class="col-3">
                                     <a href="tel:+1 208 841 9691"><i class="fa-solid fa-phone"></i></a>
