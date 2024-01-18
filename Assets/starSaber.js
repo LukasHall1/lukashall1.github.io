@@ -27,7 +27,7 @@
             <React.Fragment>
             {/* whole website } */}
             <div class="row" id="textBox">
-                <img class="body-overlay" src="media/star.png"></img>
+                <img class="body-overlay" src="Media/star.png"></img>
                 <p id="returnLink"><i class="fa-solid fa-arrow-left"></i><a href="Index.html"> <span>Back to Main website</span></a></p>
 
                 {/* left side of website */}
