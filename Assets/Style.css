@@ -17,15 +17,12 @@ body{
 }
 
 /*contact card */
-.contact-card{
+/*.contact-card{
     max-width: 488px;
     border: 1px solid #fff;
-    border-radius: 25px;       
-    /*margin: auto;   
-    margin-top: 10vh;*/        
+    border-radius: 25px;     
     text-align: center;
     padding: 0 10px;
-    position: fixed;
 
 }.contact-card:hover{
     border-color: #e44113;
@@ -48,7 +45,47 @@ body{
         margin-top: 0;
     }
     
-}
+}*/
+
+/*making the contact card a sidebar*/
+.sidebar {
+    height: 100%; 
+    width: 0;
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    display: none;
+    text-align: center;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #main {
+    transition: margin-left 1s;
+    padding: 40px;
+  }
 
 
 /*subheader thing */
@@ -69,7 +106,7 @@ span{
 
 /*section stuff */
 section{
-    padding: 0 0 20% 0;
+    padding: 0 0 10% 0;
 }
 
 .section-title{
@@ -85,13 +122,12 @@ section{
 }
 
 /*skill card */
-.specialization-card{
-    border-radius: 25px;
+.specialization-card{   
     border: 1px solid #fff;
     padding: 2%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 } .specialization-card:hover{
-    border-color: #e44113;
+    border-color: #8C1F00;
 }
 .specialization-card .col-lg-3{
     text-align: center;
@@ -106,4 +142,66 @@ section{
 
 .content {
     display: none;
+}
+
+.dropDownArrow {
+    font-size: 2em;
+    text-align: right;
+}
+
+.temp {
+    display: none;
+}
+
+
+/*carousel */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }

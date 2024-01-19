@@ -27,7 +27,7 @@
             <React.Fragment>
             {/* whole website } */}
             <div class="row" id="textBox">
-                <img class="body-overlay" src="Media/star.png"></img>
+                <img class="body-overlay" src="Assets/Media/star.png"></img>
                 <p id="returnLink"><i class="fa-solid fa-arrow-left"></i><a href="Index.html"> <span>Back to Main website</span></a></p>
 
                 {/* left side of website */}
@@ -44,8 +44,8 @@
 
                     {/* game image gallery */}
                     <div class="resize">
-                        <img src="Media/starSaberTitle.png" class="resize"/>
-                        <img src="Media/starSaberGame.png" class="resize"/>
+                        <img src="Assets/Media/starSaberTitle.png" class="resize"/>
+                        <img src="Assets/Media/starSaberGame.png" class="resize"/>
                     </div>
                 </section>
 
@@ -65,43 +65,37 @@
                     {/* powerup image gallery */}
                     <div class="container">
                         <div class="slides" >
-                            <img src="Media/Big.png" class="gallery-image"/>
+                            <img src="Assets/Media/Big.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/Health.png" class="gallery-image"/>
+                            <img src="Assets/Media/Health.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/invincible.png" class="gallery-image"/>
+                            <img src="Assets/Media/invincible.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/mini.png" class="gallery-image"/>
+                            <img src="Assets/Media/mini.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/Player.png" class="gallery-image"/>
+                            <img src="Assets/Media/Player.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/PlayerUpgrade_Bullet1.png" class="gallery-image"/>
+                            <img src="Assets/Media/PlayerUpgrade_Bullet1.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/PlayerUpgrade_Invince.png" class="gallery-image"/>
+                            <img src="Assets/Media/PlayerUpgrade_Invince.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/PlayerUpgrade_Laser.png" class="gallery-image"/>
+                            <img src="Assets/Media/PlayerUpgrade_Laser.png" class="gallery-image"/>
                         </div>
                         <div class="slides">
-                            <img src="Media/PlayerUpgrade_Small.png" class="gallery-image"/>
+                            <img src="Assets/Media/PlayerUpgrade_Small.png" class="gallery-image"/>
                         </div>
 
                         <a class="prev" onClick={() => plusSlides(-1)} >&#10094;</a>
                         <a class="next" onClick={() => plusSlides(1)} >&#10095;</a>
 
                     </div>
-
-                </section>
-
-
-                {/*skills carousel */}
-                <section class="col-12">
 
                 </section>
             </div> 
