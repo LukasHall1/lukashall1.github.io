@@ -34,26 +34,19 @@
         showSlides(slideIndex = n);
     }
 
-    const index = {
-        display: "block"    
-    };
+    let index = { display: 'block'};
 
     function showSlides(n) {
         console.log("showSlides called");
         let i;
         let slides = document.getElementsByClassName("slide");
-        let dots = document.getElementsByClassName("dot");
         if (n > slides.length) { slideIndex = 1 }
         if (n < 1) { slideIndex = slides.length }
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
 
-        slides[slideIndex - 1].style = index;
-        dots[slideIndex - 1].className += " active";
+        slides[slideIndex - 1].style = {index};
     }
     
 
@@ -79,7 +72,7 @@
                     <div class="row">
                         <img class="body-overlay" src="Assets/Media/Volcano.gif"></img>
 
-                        <h3><a><span onClick={() => openSide()}>Open contact card</span></a></h3>
+                        <h3 id="topBar"><a><span onClick={() => openSide()}>Open contact card</span></a></h3>
                         {/* contact card */}
                         <div class="sidebar" id="sidebar">
                             <a href="javascript:void(0)" class="closebtn" onClick={() => closeSide()}>&times;</a>
@@ -121,37 +114,7 @@
 
                                     <div class="slide">
                                         <div class="numbertext">1 / 3</div>
-                                        <p>hello</p>
-                                    </div>
-
-                                    <div class="slide">
-                                        <div class="numbertext">2 / 3</div>
-                                        <p>hello</p>
-                                    </div>
-
-                                    <div class="slide">
-                                        <div class="numbertext">3 / 3</div>
-                                        <p>hello</p>
-                                    </div>
-
-                                    <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
-                                    <a class="next" onClick={() => plusSlides(1)}>&#10095;</a>
-
-                                    <br />
-
-                                    <div style="text-align:center">
-                                        <span class="dot" onClick={() => currentSlide(1)}></span>
-                                        <span class="dot" onClick={() => currentSlide(2)}></span>
-                                        <span class="dot" onClick={() => currentSlide(3)}></span>
-                                    </div>
-                                </div>
-
-                                <div class="temp">
-                                    <div class="row">
-                                        <div class="col-lg-2">&nbsp;</div>
-                                        <div class="col-lg-8">
-
-                                            <section id="home" >
+                                        <section id="home" >
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <h1>Lukas Hall, <span>Programmer & Developer</span></h1>
@@ -166,9 +129,11 @@
                                                     </div>
                                                 </div>
                                             </section>
+                                    </div>
 
-
-                                            <section id="resume" >
+                                    <div class="slide">
+                                        <div class="numbertext">2 / 3</div>
+                                        <section id="resume" >
 
                                                 <div class="row">
                                                     <div class="col-lg-12">
@@ -203,8 +168,11 @@
                                                     </div>
                                                 </div>
                                             </section>
+                                    </div>
 
-                                            <section id="services">
+                                    <div class="slide">
+                                        <div class="numbertext">3 / 3</div>
+                                        <section id="services">
 
                                                 <div class="row">
 
@@ -273,10 +241,15 @@
                                                     </div>
                                                 </div>
                                             </section>
-
-                                        </div>
                                     </div>
+
+                                    <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+                                    <a class="next" onClick={() => plusSlides(1)}>&#10095;</a>
+
+                                    
                                 </div>
+
+                                
                             </div>
                         </div>
                     </div>
