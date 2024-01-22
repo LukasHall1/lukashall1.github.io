@@ -11,7 +11,7 @@ body{
     left: 0;
     top: 0;
     object-fit: cover;
-    height: 90%;
+    height: 100%;
     width: 100%;
     z-index: -1;
 }
@@ -48,9 +48,9 @@ body{
 }*/
 
 /*making the contact card a sidebar*/
-.topbar {
+#topbar {
   background-color: black;
-  overflow: hidden;
+  
 }
 
 .sidebar {
@@ -88,8 +88,9 @@ body{
   }
 
   #main {
-    transition: margin-left 1s;
-    padding: 40px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #8C1F00;
   }
 
 

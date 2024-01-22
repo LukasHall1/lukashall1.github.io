@@ -105,15 +105,16 @@
                         </div>
 
 
+                        <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
 
                         {/* main body */}
-                        <div class="col-12" id="main">
+                        <div class="col-10" id="main">
                             <div class="container-fluid" >
 
                                 <div class="row carouselContainer">
 
                                     <div class="slide">
-                                        <div class="numbertext">1 / 3</div>
+                                        <div class="numbertext">1 / 4</div>
                                         <section id="home" >
                                                 <div class="row">
                                                     <div class="col-lg-12">
@@ -132,7 +133,7 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">2 / 3</div>
+                                        <div class="numbertext">2 / 4</div>
                                         <section id="resume" >
 
                                                 <div class="row">
@@ -171,7 +172,7 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">3 / 3</div>
+                                        <div class="numbertext">3 / 4</div>
                                         <section id="services">
 
                                                 <div class="row">
@@ -243,14 +244,18 @@
                                             </section>
                                     </div>
 
-                                    <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
-                                    <a class="next" onClick={() => plusSlides(1)}>&#10095;</a>
+                                    <div class="slide">
+                                        <div class="numbertext">4 / 4</div>
+                                        <section id="skills">
 
-                                    
+                                        </section>
+                                    </div>
+
                                 </div>
-
-                                
                             </div>
+
+                            <a class="next" onClick={() => plusSlides(1)}>&#10095;</a>
+
                         </div>
                     </div>
                 </React.Fragment>
