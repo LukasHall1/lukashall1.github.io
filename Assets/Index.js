@@ -1,3 +1,5 @@
+import ContactForm from './ContactForm';
+
 (() => {
 
 
@@ -22,6 +24,7 @@
     }
 
 
+    //Carousel
     let slideIndex = 1;
 
     // Next/previous controls
@@ -48,7 +51,26 @@
 
         slides[slideIndex - 1].style = {index};
     }
+
+
+    //Contact form
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+      });
     
+      const handleChange = (e) => {
+        setFormData({ formData, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        // Add logic to handle form submission (e.g., send data to server)
+        console.log(formData);
+        // Reset form fields after submission if needed
+        setFormData({ name: '', email: '', subject: '' });
+      };
 
     
 
@@ -83,7 +105,6 @@
                                     <div><h3><span>Software Developer</span></h3></div>
 
                                 </div>
-                                <p>Placeholder image</p>
                                 <img class="img-fluid" src="Assets/Media/headShot.png" />
                                 <div class="row">
                                     <div class="col-5">
@@ -108,7 +129,6 @@
                                 <div class="row carouselContainer">
 
                                     <div class="slide">
-                                        <div class="numbertext">1 / 5</div>
                                         <section id="home" >
                                                 <div class="row">
                                                     <div class="col-lg-12">
@@ -127,7 +147,6 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">2 / 5</div>
                                         <section id="resume" >
 
                                                 <div class="row">
@@ -142,10 +161,10 @@
                                                                 <ul><li>Boise State University</li><li>Games, Interactive Media, and Mobile Technologies</li></ul></li>
 
                                                             <li><h2>Game design/Back End Website Development:<span><small> June-August 2021</small></span></h2>
-                                                                <ul><li>Nerdy Dragon</li></ul></li>
+                                                                <ul><li>Nerdy Dragon Internship</li></ul></li>
 
-                                                            <li><ul><h2>Student IT assistant: <span><small>2022-2024</small></span></h2>
-                                                                <li>Produced Professional broadcasts</li><li>Wrote scripts to control macros for broadcasts</li></ul></li>
+                                                            <li><h2>Student IT assistant: <span><small>2022-2024</small></span></h2>
+                                                            <ul><li>Produced Professional broadcasts</li><li>Wrote scripts to control macros for broadcasts</li></ul></li>
 
                                                         </ul>
                                                     </div>
@@ -167,7 +186,6 @@
 
                                     <div class="slide">
                                         
-                                        <div class="numbertext">3 / 5</div>
                                         <h1>Areas of Study/Examples of work</h1>
                                         <section id="services">
 
@@ -241,18 +259,101 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">4 / 5</div>
                                         <h1>Skills</h1>
                                         <section id="skills">
-                                                
+
+                                            {/*WebDev skills*/}
+                                            <h2>Web Development Skills</h2>
+                                                <div class="row">
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>HTML</span></h3>
+                                                        <img src="Assets/Media/htmlIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>CSS</span></h3>
+                                                        <img src="Assets/Media/cssIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Javascript</span></h3>
+                                                        <img src="Assets/Media/jsIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Java</span></h3>
+                                                        <img src="Assets/Media/javaIcon.png" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>JSON</span></h3>
+                                                        <img src="Assets/Media/jsonIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Sequel</span></h3>
+                                                        <img src="Assets/Media/sqlIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>React</span></h3>
+                                                        <img src="Assets/Media/reactIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>PHP</span></h3>
+                                                        <img src="Assets/Media/phpIcon.png" />
+                                                    </div>
+                                                </div>
+                                                {/*GameDev skills*/}
+                                                <h2>Game Development Skills</h2>
+                                                <div class="row">
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Unity</span></h3>
+                                                        <img src="Assets/Media/unityIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>C#</span></h3>
+                                                        <img src="Assets/Media/csharpIcon.png" />
+                                                    </div>
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Construct3</span></h3>
+                                                        <img src="Assets/Media/constructIcon.png" />
+                                                    </div>
+                                                </div>
+
+                                                {/*General Skills */}
+                                                <h2>General Skills</h2>
+                                                <div class="row">
+                                                    <div class="col-2 skillCard">
+                                                        <h3><span>Office 365</span></h3>
+                                                        <img src="Assets/Media/microsoftIcon.png" />
+                                                    </div>
+                                                </div>
                                         </section>
                                     </div>
 
+                                    {/*Contact form */}
                                     <div class="slide">
-                                        <div class="numbertext">5 / 5</div>
                                         <h1>Contact Me</h1>
-                                        <section id="skills">
-                                                
+                                        <section id="contact">
+                                            <ContactForm />
+                                                <div class="contactContainer">
+                                                    <form onSubmit={handleSubmit}>
+                                                        <label htmlFor="name"> Name: </label>
+                                                        <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange}/>
+
+                                                        <br />
+
+                                                        <label for="email">Email: </label>
+                                                        <input type="text" id="email" name="email" placeholder="Your email" value={formData.email} onChange={handleChange}/>
+
+                                                        <br />
+
+                                                        <label for="subject">Subject:</label>
+                                                        <textarea id="subject" name="subject" placeholder="Write something" value={formData.subject} onChange={handleChange}></textarea>
+
+                                                        <br />
+                                                        <br />
+
+                                                        <input type="submit" value="Submit"></input>
+                                                    </form>
+                                                </div>
                                         </section>
                                     </div>
 

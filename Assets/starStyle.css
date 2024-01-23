@@ -51,9 +51,9 @@ section{
     border-radius: 10px;
 }
 
-.gallery-image img{
-    max-width: 420px;
-    max-height: 210px;
+.gallery-image {
+    width: 15%;
+    height: 15%;
 }
 
 /*Putting text in box */
