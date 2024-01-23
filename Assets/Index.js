@@ -86,16 +86,10 @@
                                 <p>Placeholder image</p>
                                 <img class="img-fluid" src="Assets/Media/headShot.png" />
                                 <div class="row">
-                                    <div class="col-2">
-                                        <a href="tel:+1 208 841 9691"><i class="fa-solid fa-phone"></i></a>
-                                    </div>
-                                    <div class="col-2">
-                                        <a href="mailto:hallsweb.lh@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                                    </div>
-                                    <div class="col-2">
+                                    <div class="col-5">
                                         <a href="https://github.com/LukasHall1"><i class="fa-brands fa-github" ></i></a>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-5">
                                         <a href="https://www.linkedin.com/in/lukas-hall-26112a232/"><i class="fa-brands fa-linkedin" ></i></a>
                                     </div>
                                 </div>
@@ -114,7 +108,7 @@
                                 <div class="row carouselContainer">
 
                                     <div class="slide">
-                                        <div class="numbertext">1 / 4</div>
+                                        <div class="numbertext">1 / 5</div>
                                         <section id="home" >
                                                 <div class="row">
                                                     <div class="col-lg-12">
@@ -133,7 +127,7 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">2 / 4</div>
+                                        <div class="numbertext">2 / 5</div>
                                         <section id="resume" >
 
                                                 <div class="row">
@@ -172,7 +166,9 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">3 / 4</div>
+                                        
+                                        <div class="numbertext">3 / 5</div>
+                                        <h1>Areas of Study/Examples of work</h1>
                                         <section id="services">
 
                                                 <div class="row">
@@ -192,7 +188,7 @@
                                                         <div class="content" id="collapsibleContent">
                                                             <p>Examples of work:
                                                                 <br />
-                                                                <a href="#skills">This Website</a>
+                                                                <a href="#">This Portfolio Website</a>
                                                             </p>
                                                         </div>
 
@@ -245,9 +241,18 @@
                                     </div>
 
                                     <div class="slide">
-                                        <div class="numbertext">4 / 4</div>
+                                        <div class="numbertext">4 / 5</div>
+                                        <h1>Skills</h1>
                                         <section id="skills">
+                                                
+                                        </section>
+                                    </div>
 
+                                    <div class="slide">
+                                        <div class="numbertext">5 / 5</div>
+                                        <h1>Contact Me</h1>
+                                        <section id="skills">
+                                                
                                         </section>
                                     </div>
 
