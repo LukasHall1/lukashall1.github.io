@@ -1,4 +1,4 @@
-import ContactForm from './ContactForm';
+//import ContactForm from './ContactForm';
 
 (() => {
 
@@ -37,7 +37,7 @@ import ContactForm from './ContactForm';
         showSlides(slideIndex = n);
     }
 
-    let index = { display: 'block'};
+    let index = { display: 'block' };
 
     function showSlides(n) {
         console.log("showSlides called");
@@ -49,12 +49,12 @@ import ContactForm from './ContactForm';
             slides[i].style.display = "none";
         }
 
-        slides[slideIndex - 1].style = {index};
+        slides[slideIndex - 1].style = { index };
     }
 
 
     //Contact form
-    const [formData, setFormData] = useState({
+    /*const [formData, setFormData] = useState({
         name: '',
         email: '',
         subject: '',
@@ -66,13 +66,13 @@ import ContactForm from './ContactForm';
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        // Add logic to handle form submission (e.g., send data to server)
+        // Add logic to handle form submission (e.g., send data to server)s
         console.log(formData);
         // Reset form fields after submission if needed
         setFormData({ name: '', email: '', subject: '' });
       };
+      */
 
-    
 
     class ReactIndex extends React.Component {
 
@@ -130,132 +130,132 @@ import ContactForm from './ContactForm';
 
                                     <div class="slide">
                                         <section id="home" >
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <h1>Lukas Hall, <span>Programmer & Developer</span></h1>
-                                                    </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <h1>Lukas Hall, <span>Programmer & Developer</span></h1>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        I'm a sophomore in the <a href="https://www.boisestate.edu/gimm/">GIMM</a> program at BSU and an aspiring game developer. I've been working on learning how to make video games for the past 6 years.
-                                                        However making video games isn't the only thing I know how to do. While learning how to make games I've also learned how to do front end and back end programming for websites.
-                                                        Organizing a website's contents, sorting data and tables. As well as dabbling in some Arduino. This website is both a showpiece and a gallery to give you some examples of
-                                                        what I'm capable of as a developer. My current goals are to complete my degree and to join a team where I make some cool stuff and develop my own skills.
-                                                    </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    I'm a sophomore in the <a href="https://www.boisestate.edu/gimm/">GIMM</a> program at BSU and an aspiring game developer. I've been working on learning how to make video games for the past 6 years.
+                                                    However making video games isn't the only thing I know how to do. While learning how to make games I've also learned how to do front end and back end programming for websites.
+                                                    Organizing a website's contents, sorting data and tables. As well as dabbling in some Arduino. This website is both a showpiece and a gallery to give you some examples of
+                                                    what I'm capable of as a developer. My current goals are to complete my degree and to join a team where I make some cool stuff and develop my own skills.
                                                 </div>
-                                            </section>
+                                            </div>
+                                        </section>
                                     </div>
 
                                     <div class="slide">
                                         <section id="resume" >
 
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <h1>Background: <span>Experience & Education</span></h1>
-                                                    </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <h1>Background: <span>Experience & Education</span></h1>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <ul>
-                                                            <li><h2>GIMM Bachelor's of Science:<span><small> Estimated graduation 2026</small></span></h2>
-                                                                <ul><li>Boise State University</li><li>Games, Interactive Media, and Mobile Technologies</li></ul></li>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <ul>
+                                                        <li><h2>GIMM Bachelor's of Science:<span><small> Estimated graduation 2026</small></span></h2>
+                                                            <ul><li>Boise State University</li><li>Games, Interactive Media, and Mobile Technologies</li></ul></li>
 
-                                                            <li><h2>Game design/Back End Website Development:<span><small> June-August 2021</small></span></h2>
-                                                                <ul><li>Nerdy Dragon Internship</li></ul></li>
+                                                        <li><h2>Game design/Back End Website Development:<span><small> June-August 2021</small></span></h2>
+                                                            <ul><li>Nerdy Dragon Internship</li></ul></li>
 
-                                                            <li><h2>Student IT assistant: <span><small>2022-2024</small></span></h2>
+                                                        <li><h2>Student IT assistant: <span><small>2022-2024</small></span></h2>
                                                             <ul><li>Produced Professional broadcasts</li><li>Wrote scripts to control macros for broadcasts</li></ul></li>
 
-                                                        </ul>
-                                                    </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent3")} onMouseOut={() => hideContent("collapsibleContent3")}>
+                                                <div class="row">
+                                                    <div class="col-lg-9"><h2>Resume</h2></div>
                                                 </div>
 
-                                                <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent3")} onMouseOut={() => hideContent("collapsibleContent3")}>
+                                                <div class="content" id="collapsibleContent3">
                                                     <div class="row">
-                                                        <div class="col-lg-9"><h2>Resume</h2></div>
-                                                    </div>
-
-                                                    <div class="content" id="collapsibleContent3">
-                                                        <div class="row">
-                                                            <object data="Misc/Resume.pdf" width="500" height="500" />
-                                                        </div>
+                                                        <object data="Misc/Resume.pdf" width="500" height="500" />
                                                     </div>
                                                 </div>
-                                            </section>
+                                            </div>
+                                        </section>
                                     </div>
 
                                     <div class="slide">
-                                        
+
                                         <h1>Areas of Study/Examples of work</h1>
                                         <section id="services">
 
-                                                <div class="row">
+                                            <div class="row">
 
-                                                    <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent")} onMouseOut={() => hideContent("collapsibleContent")}>
-                                                        <div class="row">
-                                                            <div class="col-lg-10"><h2>Full-Stack Web Development</h2></div>
-                                                            <div class="col-lg-2"><h2><i class="fa-solid fa-code"></i></h2></div>
-                                                        </div>
-                                                        <p>Development of websites using HTML, CSS, JavaScript, and SQL.
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;<span>Knowledgeable</span>
-                                                            <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
+                                                <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent")} onMouseOut={() => hideContent("collapsibleContent")}>
+                                                    <div class="row">
+                                                        <div class="col-lg-10"><h2>Full-Stack Web Development</h2></div>
+                                                        <div class="col-lg-2"><h2><i class="fa-solid fa-code"></i></h2></div>
+                                                    </div>
+                                                    <p>Development of websites using HTML, CSS, JavaScript, and SQL.
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;<span>Knowledgeable</span>
+                                                        <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
+                                                    </p>
+
+                                                    <div class="content" id="collapsibleContent">
+                                                        <p>Examples of work:
+                                                            <br />
+                                                            <a href="#">This Portfolio Website</a>
                                                         </p>
+                                                    </div>
 
-                                                        <div class="content" id="collapsibleContent">
-                                                            <p>Examples of work:
-                                                                <br />
-                                                                <a href="#">This Portfolio Website</a>
-                                                            </p>
-                                                        </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent1")} onMouseOut={() => hideContent("collapsibleContent1")}>
+                                                    <div class="row">
+                                                        <div class="col-lg-9"><h2>Video Game Development</h2></div>
+                                                        <div class="col-lg-3"><h2><i class="fa-solid fa-code"></i></h2></div>
+                                                    </div>
+
+                                                    <p>I can use Unity to create 2D and 3D games and have an introductory knowledge of VR development.
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;<span>Comfortable</span>
+                                                        <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
+                                                    </p>
+
+                                                    <div class="content" id="collapsibleContent1">
+                                                        <p>Examples of work:
+                                                            <br />
+                                                            <a href="starSaber.html">StarSaber</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent()} onMouseOut={() => hideContent()}>
+                                                    <div class="row">
+                                                        <div class="col-lg-9"><h2>Arduino Programming</h2></div>
+                                                        <div class="col-lg-3"><h2><i class="fa-solid fa-code"></i></h2></div>
+                                                    </div>
+
+                                                    <p>Programming and building Arduino projects.
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;
+                                                        <br />&nbsp;<span>Acquainted</span>
+                                                        <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
+                                                    </p>
+
+                                                    <div class="content" id="collapsibleContent2">
 
                                                     </div>
                                                 </div>
-
-                                                <div class="row">
-                                                    <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent1")} onMouseOut={() => hideContent("collapsibleContent1")}>
-                                                        <div class="row">
-                                                            <div class="col-lg-9"><h2>Video Game Development</h2></div>
-                                                            <div class="col-lg-3"><h2><i class="fa-solid fa-code"></i></h2></div>
-                                                        </div>
-
-                                                        <p>I can use Unity to create 2D and 3D games and have an introductory knowledge of VR development.
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;<span>Comfortable</span>
-                                                            <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
-                                                        </p>
-
-                                                        <div class="content" id="collapsibleContent1">
-                                                            <p>Examples of work:
-                                                                <br />
-                                                                <a href="starSaber.html">StarSaber</a>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent()} onMouseOut={() => hideContent()}>
-                                                        <div class="row">
-                                                            <div class="col-lg-9"><h2>Arduino Programming</h2></div>
-                                                            <div class="col-lg-3"><h2><i class="fa-solid fa-code"></i></h2></div>
-                                                        </div>
-
-                                                        <p>Programming and building Arduino projects.
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;
-                                                            <br />&nbsp;<span>Acquainted</span>
-                                                            <br /><i class="fa-solid fa-angle-down dropDownArrow"></i>
-                                                        </p>
-
-                                                        <div class="content" id="collapsibleContent2">
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
+                                            </div>
+                                        </section>
                                     </div>
 
                                     <div class="slide">
@@ -264,71 +264,75 @@ import ContactForm from './ContactForm';
 
                                             {/*WebDev skills*/}
                                             <h2>Web Development Skills</h2>
-                                                <div class="row">
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>HTML</span></h3>
-                                                        <img src="Assets/Media/htmlIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>CSS</span></h3>
-                                                        <img src="Assets/Media/cssIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Javascript</span></h3>
-                                                        <img src="Assets/Media/jsIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Java</span></h3>
-                                                        <img src="Assets/Media/javaIcon.png" />
-                                                    </div>
+                                            <div class="row">
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>HTML</span></h3>
+                                                    <img src="Assets/Media/htmlIcon.png" />
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>JSON</span></h3>
-                                                        <img src="Assets/Media/jsonIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Sequel</span></h3>
-                                                        <img src="Assets/Media/sqlIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>React</span></h3>
-                                                        <img src="Assets/Media/reactIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>PHP</span></h3>
-                                                        <img src="Assets/Media/phpIcon.png" />
-                                                    </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>CSS</span></h3>
+                                                    <img src="Assets/Media/cssIcon.png" />
                                                 </div>
-                                                {/*GameDev skills*/}
-                                                <h2>Game Development Skills</h2>
-                                                <div class="row">
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Unity</span></h3>
-                                                        <img src="Assets/Media/unityIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>C#</span></h3>
-                                                        <img src="Assets/Media/csharpIcon.png" />
-                                                    </div>
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Construct3</span></h3>
-                                                        <img src="Assets/Media/constructIcon.png" />
-                                                    </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Javascript</span></h3>
+                                                    <img src="Assets/Media/jsIcon.png" />
                                                 </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Java</span></h3>
+                                                    <img src="Assets/Media/javaIcon.png" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>JSON</span></h3>
+                                                    <img src="Assets/Media/jsonIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Sequel</span></h3>
+                                                    <img src="Assets/Media/sqlIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>React</span></h3>
+                                                    <img src="Assets/Media/reactIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>PHP</span></h3>
+                                                    <img src="Assets/Media/phpIcon.png" />
+                                                </div>
+                                            </div>
+                                            {/*GameDev skills*/}
+                                            <h2>Game Development Skills</h2>
+                                            <div class="row">
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Unity</span></h3>
+                                                    <img src="Assets/Media/unityIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>C#</span></h3>
+                                                    <img src="Assets/Media/csharpIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Construct3</span></h3>
+                                                    <img src="Assets/Media/constructIcon.png" />
+                                                </div>
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Maya</span></h3>
+                                                    <img src="Assets/Media/mayaIcon.png" />
+                                                </div>
+                                            </div>
 
-                                                {/*General Skills */}
-                                                <h2>General Skills</h2>
-                                                <div class="row">
-                                                    <div class="col-2 skillCard">
-                                                        <h3><span>Office 365</span></h3>
-                                                        <img src="Assets/Media/microsoftIcon.png" />
-                                                    </div>
+                                            {/*General Skills */}
+                                            <h2>General Skills</h2>
+                                            <div class="row">
+                                                <div class="col-2 skillCard">
+                                                    <h3><span>Office 365</span></h3>
+                                                    <img src="Assets/Media/microsoftIcon.png" />
                                                 </div>
+                                            </div>
                                         </section>
                                     </div>
 
-                                    {/*Contact form */}
+                                    {/*Contact form 
                                     <div class="slide">
                                         <h1>Contact Me</h1>
                                         <section id="contact">
@@ -356,6 +360,7 @@ import ContactForm from './ContactForm';
                                                 </div>
                                         </section>
                                     </div>
+                                    */}
 
                                 </div>
                             </div>
@@ -373,5 +378,5 @@ import ContactForm from './ContactForm';
 
     const container = document.getElementById('body');
     const root = ReactDOM.createRoot(container);
-    root.render(<ReactIndex/>);
+    root.render(<ReactIndex />);
 })();
