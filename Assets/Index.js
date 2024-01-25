@@ -265,68 +265,68 @@
                                             {/*WebDev skills*/}
                                             <h2>Web Development Skills</h2>
                                             <div class="row">
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>HTML</span></h3>
-                                                    <img src="Assets/Media/htmlIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/htmlIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>CSS</span></h3>
-                                                    <img src="Assets/Media/cssIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/cssIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Javascript</span></h3>
-                                                    <img src="Assets/Media/jsIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/jsIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Java</span></h3>
-                                                    <img src="Assets/Media/javaIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/javaIcon.png" />
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>JSON</span></h3>
-                                                    <img src="Assets/Media/jsonIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/jsonIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Sequel</span></h3>
-                                                    <img src="Assets/Media/sqlIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/sqlIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>React</span></h3>
-                                                    <img src="Assets/Media/reactIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/reactIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>PHP</span></h3>
-                                                    <img src="Assets/Media/phpIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/phpIcon.png" />
                                                 </div>
                                             </div>
                                             {/*GameDev skills*/}
                                             <h2>Game Development Skills</h2>
                                             <div class="row">
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Unity</span></h3>
-                                                    <img src="Assets/Media/unityIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/unityIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>C#</span></h3>
-                                                    <img src="Assets/Media/csharpIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/csharpIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Construct3</span></h3>
-                                                    <img src="Assets/Media/constructIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/constructIcon.png" />
                                                 </div>
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Maya</span></h3>
-                                                    <img src="Assets/Media/mayaIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/mayaIcon.png" />
                                                 </div>
                                             </div>
 
                                             {/*General Skills */}
                                             <h2>General Skills</h2>
                                             <div class="row">
-                                                <div class="col-2 skillCard">
+                                                <div class="col-md-2 col-sm-4 col-5 skillCard">
                                                     <h3><span>Office 365</span></h3>
-                                                    <img src="Assets/Media/microsoftIcon.png" />
+                                                    <img class="img-fluid" src="Assets/Media/microsoftIcon.png" />
                                                 </div>
                                             </div>
                                         </section>
