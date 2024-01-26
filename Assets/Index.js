@@ -1,5 +1,3 @@
-//import ContactForm from './ContactForm';
-
 (() => {
 
 
@@ -53,25 +51,7 @@
     }
 
 
-    //Contact form
-    /*const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-      });
     
-      const handleChange = (e) => {
-        setFormData({ formData, [e.target.name]: e.target.value });
-      };
-    
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Add logic to handle form submission (e.g., send data to server)s
-        console.log(formData);
-        // Reset form fields after submission if needed
-        setFormData({ name: '', email: '', subject: '' });
-      };
-      */
 
 
     class ReactIndex extends React.Component {
@@ -107,11 +87,14 @@
                                 </div>
                                 <img class="img-fluid" src="Assets/Media/headShot.png" />
                                 <div class="row">
-                                    <div class="col-5">
+                                    <div class="col-4">
                                         <a href="https://github.com/LukasHall1"><i class="fa-brands fa-github" ></i></a>
                                     </div>
-                                    <div class="col-5">
+                                    <div class="col-4">
                                         <a href="https://www.linkedin.com/in/lukas-hall-26112a232/"><i class="fa-brands fa-linkedin" ></i></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="lukasjhallm@gmail.com"><i class="fa-solid fa-envelope" ></i></a>
                                     </div>
                                 </div>
 
@@ -332,35 +315,6 @@
                                         </section>
                                     </div>
 
-                                    {/*Contact form 
-                                    <div class="slide">
-                                        <h1>Contact Me</h1>
-                                        <section id="contact">
-                                            <ContactForm />
-                                                <div class="contactContainer">
-                                                    <form onSubmit={handleSubmit}>
-                                                        <label htmlFor="name"> Name: </label>
-                                                        <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange}/>
-
-                                                        <br />
-
-                                                        <label for="email">Email: </label>
-                                                        <input type="text" id="email" name="email" placeholder="Your email" value={formData.email} onChange={handleChange}/>
-
-                                                        <br />
-
-                                                        <label for="subject">Subject:</label>
-                                                        <textarea id="subject" name="subject" placeholder="Write something" value={formData.subject} onChange={handleChange}></textarea>
-
-                                                        <br />
-                                                        <br />
-
-                                                        <input type="submit" value="Submit"></input>
-                                                    </form>
-                                                </div>
-                                        </section>
-                                    </div>
-                                    */}
 
                                 </div>
                             </div>
