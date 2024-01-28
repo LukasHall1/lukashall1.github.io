@@ -218,10 +218,19 @@
                                                     <p>Development of websites using HTML, CSS, JavaScript, and SQL.
                                                         <br/>
                                                         <br/>
-                                                        <p>Examples of work:
-                                                            <br />
-                                                            <a href="#">This Portfolio Website</a>
-                                                        </p>
+                                                    <h3>Examples:</h3>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <a href="#" target="_blank"><img id="imgFix" src="Assets/Media/examplePage.png" alt="an image of the resume page of this website"/></a>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>This entire website is an example of what I can do in terms of web development.
+                                                                I used React, HTML, and CSS to create this website. I learned a couple of things 
+                                                                in making this website like how to better use javascript within a website and a little bit of how to use react.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <hr/>
                                                     </p>
 
                                                 </div>
@@ -238,6 +247,7 @@
 
                                                         <br/>
                                                         <br/>
+                                                    <h3>Examples:</h3>
                                                     <div class="row">
                                                         <div class="col-6">
                                                             <a href="starSaber.html" target="_blank"><img id="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen"/></a>
@@ -249,6 +259,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
+                                                    <hr/>
                                                 </div>
                                             </div>
 
@@ -276,10 +287,6 @@
                                                 </div>
                                             </div>
                                         </section>
-                                    </div>
-
-                                    <div class="slide">
-
                                     </div>
 
 
