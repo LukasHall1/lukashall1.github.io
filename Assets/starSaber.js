@@ -40,7 +40,7 @@
                     {/* whole website } */}
                     <div class="row" id="textBox">
                         <img class="body-overlay" src="Assets/Media/star.png"></img>
-                        <p id="returnLink"><i class="fa-solid fa-arrow-left"></i><a href="Index.html"> <span>Back to Main website</span></a></p>
+                        <p id="returnLink"><i class="fa-solid fa-arrow-left"></i><a href="index.html"> <span>Back to Main website</span></a></p>
 
                         {/* left side of website */}
                         <section class="col-6">
