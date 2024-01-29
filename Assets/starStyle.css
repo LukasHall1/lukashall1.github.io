@@ -39,17 +39,7 @@ section{
 }
 
 /* "gallery" */
-.resize {
-    text-align: center;
-}
 
-.resize img{
-    max-width: 500px;
-    max-height: 250px;
-    margin-top: 10px;
-    border-color: white;
-    border-radius: 10px;
-}
 
 .gallery-image {
     width: 15%;
