@@ -1,1 +1,3 @@
 things to change for portfolio website:
+
+About me paragraph looks a little awkward, chop it up or change how it looks.
