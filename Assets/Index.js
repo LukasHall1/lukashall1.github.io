@@ -77,7 +77,7 @@
                                                         <div class="row">
 
                                                         </div>
-                                                        <img class="img-fluid" src="Assets/Media/headShot.png" />
+                                                        <img class="img-fluid headShot" src="Assets/Media/headShot.png" />
                                                         <div class="row">
                                                             <div class="col-4">
                                                                 <a href="https://github.com/LukasHall1"><i class="fa-2x fa-brands fa-github" ></i></a>
@@ -256,6 +256,21 @@
                                                             <p>This is the game star saber which is a project I did in highschool in Unity.
                                                                 I used C# as the main programming language and the game is basically a space shooter in a 
                                                                 similar vein as galaga or space invaders.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <hr/>
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            {/*<a href="#" target="_blank">*/}<img id="imgFix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen"/>{/*</a>*/}
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>This is the game Rule of Ten which is a project I did for Nerdy Dragon during an internship.
+                                                                I used Construct3 to make this game which is just a simple game (quite literally meant for elementary schoolers
+                                                                according to the client) where you answer math questions about place value. In doing so the original point was for
+                                                                the game to be used as a teaching tool and for the students to get highscores in order to compete with one another.
+                                                                Unfortunately the game was never finished due to the graphic designer not being able to finish the assets and so I only have
+                                                                the prototype as a proof of concept.
                                                             </p>
                                                         </div>
                                                     </div>

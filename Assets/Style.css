@@ -22,7 +22,13 @@ body{
 }
 
 #aboutBlurb {
-  margin-top: 25%;
+  text-align: left;
+  margin-top: 12.5%;
+}
+
+.headShot {
+  border-radius: 200px;
+  padding-bottom: 1em;
 }
 
 /*making the contact card a sidebar*/
