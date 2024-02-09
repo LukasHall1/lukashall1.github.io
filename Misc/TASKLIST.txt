@@ -1,3 +1,5 @@
 things to change for portfolio website:
 
 About me paragraph looks a little awkward, chop it up or change how it looks.
+
+take object out and just put it in p tags and import it. (maybe just copy paste whole thing and style it like a c# page)
