@@ -53,7 +53,7 @@
                 <React.Fragment>
                     {/* whole website } */}
                     <div class="row">
-                        <img class="body-overlay" src="Assets/Media/Volcano.png"></img>
+                        <img class="body-overlay" src="Assets/Media/Volcano.png" alt="An image of a volcano which covers the background of the website"></img>
 
 
                         <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
@@ -77,7 +77,7 @@
                                                         <div class="row">
 
                                                         </div>
-                                                        <img class="img-fluid headShot" src="Assets/Media/headShot.png" />
+                                                        <img class="img-fluid headShot" src="Assets/Media/headShot.png" alt="A headshot of me"/>
                                                         <div class="row">
                                                             <div class="col-4">
                                                                 <a href="https://github.com/LukasHall1"><i class="fa-2x fa-brands fa-github" ></i></a>
@@ -221,7 +221,7 @@
                                                     <h3>Examples:</h3>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            <a href="#" target="_blank"><img id="imgFix" src="Assets/Media/examplePage.png" alt="an image of the resume page of this website"/></a>
+                                                            <a href="#" target="_blank"><img class="imgfix" src="Assets/Media/examplePage.png" alt="an image of the resume page of this website"/></a>
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This entire website is an example of what I can do in terms of web development.
@@ -250,7 +250,7 @@
                                                     <h3>Examples:</h3>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            <a href="starSaber.html" target="_blank"><img id="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen"/></a>
+                                                            <a href="starSaber.html" target="_blank"><img class="imgfix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen"/></a>
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This is the game star saber which is a project I did in highschool in Unity.
@@ -262,7 +262,7 @@
                                                     <hr/>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            {/*<a href="#" target="_blank">*/}<img id="imgFix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen"/>{/*</a>*/}
+                                                            {/*<a href="#" target="_blank">*/}<img class="imgfix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen"/>{/*</a>*/}
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This is the game Rule of Ten which is a project I did for Nerdy Dragon during an internship.
