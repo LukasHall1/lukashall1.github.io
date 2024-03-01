@@ -96,7 +96,7 @@
                                                 <div class="col-lg-6 " id="aboutBlurb">
                                                     I'm a sophomore in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
                                                     While creating video games is a skill I've developed, it's not the only one in my arsenal. 
-                                                    In addition to mastering game development, I've also delved into front-end and back-end programming for websites. 
+                                                    In addition to learning game development, I've also delved into front-end and back-end programming for websites. 
                                                     This includes tasks such as organizing website content, sorting data and tables, and even exploring Arduino programming.
                                                     This website is both a showpiece and a gallery to give you some examples of
                                                     what I'm capable of as a developer. My current goals are to complete my degree and to join a team where I make some cool stuff and develop my own skills.
