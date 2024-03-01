@@ -77,7 +77,7 @@
                                                         <div class="row">
 
                                                         </div>
-                                                        <img class="img-fluid headShot" src="Assets/Media/headShot.png" alt="A headshot of me"/>
+                                                        <img class="img-fluid headShot" src="Assets/Media/headShot.png" alt="A headshot of me" />
                                                         <div class="row">
                                                             <div class="col-4">
                                                                 <a href="https://github.com/LukasHall1"><i class="fa-2x fa-brands fa-github" ></i></a>
@@ -94,9 +94,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 " id="aboutBlurb">
-                                                    I'm a sophomore in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. I've been working on learning how to make video games for the past 6 years.
-                                                    However making video games isn't the only thing I know how to do. While learning how to make games I've also learned how to do front end and back end programming for websites.
-                                                    Organizing a website's contents, sorting data and tables. As well as dabbling in some Arduino. This website is both a showpiece and a gallery to give you some examples of
+                                                    I'm a sophomore in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
+                                                    While creating video games is a skill I've developed, it's not the only one in my arsenal. 
+                                                    In addition to mastering game development, I've also delved into front-end and back-end programming for websites. 
+                                                    This includes tasks such as organizing website content, sorting data and tables, and even exploring Arduino programming.
+                                                    This website is both a showpiece and a gallery to give you some examples of
                                                     what I'm capable of as a developer. My current goals are to complete my degree and to join a team where I make some cool stuff and develop my own skills.
                                                 </div>
                                             </div>
@@ -216,21 +218,21 @@
                                                         <div class="col-lg-2"><h2><i class="fa-solid fa-code"></i></h2></div>
                                                     </div>
                                                     <p>Development of websites using HTML, CSS, JavaScript, and SQL.
-                                                        <br/>
-                                                        <br/>
-                                                    <h3>Examples:</h3>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <a href="#" target="_blank"><img class="imgFix" src="Assets/Media/examplePage.png" alt="an image of the resume page of this website"/></a>
+                                                        <br />
+                                                        <br />
+                                                        <h3>Examples:</h3>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <a href="#" target="_blank"><img class="imgFix" src="Assets/Media/examplePage.png" alt="an image of the resume page of this website" /></a>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>This entire website is an example of what I can do in terms of web development.
+                                                                    I used React, HTML, and CSS to create this website. I learned a couple of things
+                                                                    in making this website like how to better use javascript within a website and a little bit of how to use react.
+                                                                </p>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <p>This entire website is an example of what I can do in terms of web development.
-                                                                I used React, HTML, and CSS to create this website. I learned a couple of things 
-                                                                in making this website like how to better use javascript within a website and a little bit of how to use react.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <hr/>
+                                                        <hr />
                                                     </p>
 
                                                 </div>
@@ -245,24 +247,24 @@
 
                                                     <p>I can use Unity to create 2D and 3D games and have an introductory knowledge of VR development. </p>
 
-                                                        <br/>
-                                                        <br/>
+                                                    <br />
+                                                    <br />
                                                     <h3>Examples:</h3>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            <a href="starSaber.html" target="_blank"><img class="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen"/></a>
+                                                            <a href="starSaber.html" target="_blank"><img class="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen" /></a>
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This is the game star saber which is a project I did in highschool in Unity.
-                                                                I used C# as the main programming language and the game is basically a space shooter in a 
+                                                                I used C# as the main programming language and the game is basically a space shooter in a
                                                                 similar vein as galaga or space invaders.
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <hr/>
+                                                    <hr />
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            {/*<a href="#" target="_blank">*/}<img class="imgFix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen"/>{/*</a>*/}
+                                                            {/*<a href="#" target="_blank">*/}<img class="imgFix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen" />{/*</a>*/}
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This is the game Rule of Ten which is a project I did for Nerdy Dragon during an internship.
@@ -274,7 +276,7 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <hr/>
+                                                    <hr />
                                                 </div>
                                             </div>
 
@@ -286,17 +288,17 @@
                                                     </div>
 
                                                     <p>Programming and building Arduino projects.
-                                                        <br/>
-                                                        <br/>
+                                                        <br />
+                                                        <br />
                                                         <div class="row">
-                                                        <div class="col-6">
-                                                            
+                                                            <div class="col-6">
+
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>
+                                                                </p>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <p>
-                                                            </p>
-                                                        </div>
-                                                    </div>
                                                         {/* where examples will go */}
                                                     </p>
                                                 </div>
