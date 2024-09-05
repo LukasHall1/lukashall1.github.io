@@ -111,10 +111,10 @@
 
                         </section>
 
-                        <section class="col-12">
+                        {/*<section class="col-12">
                             <h1>Power up c# code:</h1>
                             <object type="text/plain" data="Misc/PowerUpData.cs" width="1300" height="1000" />
-                        </section>
+                        </section>*/}
                     </div>
                 </React.Fragment>
             )

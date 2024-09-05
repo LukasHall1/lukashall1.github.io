@@ -65,3 +65,13 @@ section{
 #returnLink a:hover{
     background-color: rgba(85, 84, 84, 1);
 }
+
+.prev {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.next {
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -94,7 +94,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 " id="aboutBlurb">
-                                                    I'm a sophomore in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
+                                                    I'm a Junior in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
                                                     While creating video games is a skill I've developed, it's not the only one in my arsenal. 
                                                     In addition to learning game development, I've also delved into front-end and back-end programming for websites. 
                                                     This includes tasks such as organizing website content, sorting data and tables, and even exploring Arduino programming.
@@ -129,7 +129,7 @@
                                                 </div>
                                             </div>
 
-                                            <p><a href="Misc/Resume.pdf">Here's a link to a pdf copy of my resume</a></p>
+                                            <p><a href="Misc/LukasH_Resume.pdf">Here's a link to a pdf copy of my resume</a></p>
 
                                             <section id="skills">
 
@@ -252,13 +252,14 @@
                                                     <h3>Examples:</h3>
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            <a href="starSaber.html" target="_blank"><img class="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen" /></a>
+                                                            <a ><img class="imgFix" src="Assets/Media/starSaberTitle.png" alt="an image of star saber's title screen" /></a>
                                                         </div>
                                                         <div class="col-6">
                                                             <p>This is the game star saber which is a project I did in highschool in Unity.
                                                                 I used C# as the main programming language and the game is basically a space shooter in a
                                                                 similar vein as galaga or space invaders.
                                                             </p>
+                                                            <a href="starSaber.html" target="_blank">Deeper dive into star saber</a>
                                                         </div>
                                                     </div>
                                                     <hr />
