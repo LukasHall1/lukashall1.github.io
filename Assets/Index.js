@@ -94,7 +94,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 " id="aboutBlurb">
-                                                    I'm a Junior in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
+                                                    I'm a Senior in the Games Interactive Media and Mobile <a href="https://www.boisestate.edu/gimm/">(GIMM)</a> program at BSU and an aspiring game developer. 
                                                     While creating video games is a skill I've developed, it's not the only one in my arsenal. 
                                                     In addition to learning game development, I've also delved into front-end and back-end programming for websites. 
                                                     This includes tasks such as organizing website content, sorting data and tables, and even exploring Arduino programming.
@@ -119,7 +119,7 @@
                                                         <li><h3>Boise State University Bachelor's of Science:<span><small> Estimated graduation 2026</small></span></h3>
                                                             <ul><li><em>Games, Interactive Media, and Mobile Technologies (Major)</em></li></ul></li>
 
-                                                        <li><h3>Student IT assistant: <span><small>2022-2024</small></span></h3>
+                                                        <li><h3>Student IT assistant: <span><small>2022-2026</small></span></h3>
                                                             <ul><li><em>For Boise State University</em></li><li>Produced Professional broadcasts</li><li>Wrote scripts to control macros for broadcasts</li></ul></li>
 
                                                         <li><h3>Game design/Back End Website Development:<span><small> June-August 2021</small></span></h3>
@@ -232,6 +232,17 @@
                                                                 </p>
                                                             </div>
                                                         </div>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <a href="#" target="_blank"><img class="imgFix" src="Assets/Media/CRUDWebsite.png" alt="an image of my React MYSQL website" /></a>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p>I created an entire class mysql website project within React. The original specification was to use javascript and SQL to create a simple 
+                                                                    mysql database and then use javascript to interact with the database. I decided to use React as a way to make the website more dynamic and to
+                                                                    learn how to use React in a different way than I had been taught originally.
+                                                                </p>
+                                                            </div>
+                                                        </div>
                                                         <hr />
                                                     </p>
 
@@ -265,15 +276,11 @@
                                                     <hr />
                                                     <div class="row">
                                                         <div class="col-6">
-                                                            {/*<a href="#" target="_blank">*/}<img class="imgFix" src="Assets/Media/RuleofTen.png" alt="an image of Rule of Ten's game screen" />{/*</a>*/}
+                                                            {/*<a href="#" target="_blank">*/}<img class="imgFix" src="Assets/Media/sphinxstombmain.png" alt="an image of Sphinx's Tomb's start screen" />{/*</a>*/}
                                                         </div>
                                                         <div class="col-6">
-                                                            <p>This is the game Rule of Ten which is a project I did for Nerdy Dragon during an internship.
-                                                                I used Construct3 to make this game which is just a simple game (quite literally meant for elementary schoolers
-                                                                according to the client) where you answer math questions about place value. In doing so the original point was for
-                                                                the game to be used as a teaching tool and for the students to get highscores in order to compete with one another.
-                                                                Unfortunately the game was never finished due to the graphic designer not being able to finish the assets and so I only have
-                                                                the prototype as a proof of concept.
+                                                            <p>The Sphinx's tomb is a game I made in Unity as a final project for my junior year. The game is inspired by 
+                                                               the game Hades which is a rogue like dungeon crawler. But instead of Greek mythology, it's based in Egyptian mythology.
                                                             </p>
                                                         </div>
                                                     </div>
