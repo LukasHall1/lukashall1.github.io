@@ -129,7 +129,7 @@
                                                 </div>
                                             </div>
 
-                                            <p><a href="Misc/LukasH_Resume.pdf">Here's a link to a pdf copy of my resume</a></p>
+                                            <p><a href="Misc/2025/LukasH_Resume.pdf">Here's a link to a pdf copy of my resume</a></p>
 
                                             <section id="skills">
 
@@ -232,17 +232,6 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-6">
-                                                                <a href="#" target="_blank"><img class="imgFix" src="Assets/Media/CRUDWebsite.png" alt="an image of my React MYSQL website" /></a>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <p>I created an entire class mysql website project within React. The original specification was to use javascript and SQL to create a simple 
-                                                                    mysql database and then use javascript to interact with the database. I decided to use React as a way to make the website more dynamic and to
-                                                                    learn how to use React in a different way than I had been taught originally.
-                                                                </p>
-                                                            </div>
-                                                        </div>
                                                         <hr />
                                                     </p>
 
@@ -288,29 +277,6 @@
                                                 </div>
                                             </div>
 
-                                            <div class="row">
-                                                <div class="col-lg-12 specialization-card ">
-                                                    <div class="row">
-                                                        <div class="col-lg-9"><h2>Arduino Programming</h2></div>
-                                                        <div class="col-lg-3"><h2><i class="fa-solid fa-code"></i></h2></div>
-                                                    </div>
-
-                                                    <p>Programming and building Arduino projects.
-                                                        <br />
-                                                        <br />
-                                                        <div class="row">
-                                                            <div class="col-6">
-
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <p>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        {/* where examples will go */}
-                                                    </p>
-                                                </div>
-                                            </div>
                                         </section>
                                     </div>
 
