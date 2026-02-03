@@ -52,7 +52,7 @@
             return (
                 <React.Fragment>
                     {/* whole website } */}
-                    <div class="row">
+                    <div class="row" background-color="Gray">
                         {/*<img class="body-overlay" src="Assets/Media/Volcano.png" alt="An image of a volcano which covers the background of the website"></img>*/}
 
 
