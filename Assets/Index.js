@@ -53,7 +53,7 @@
                 <React.Fragment>
                     {/* whole website } */}
                     <div class="row">
-                        <img class="body-overlay" src="Assets/Media/Volcano.png" alt="An image of a volcano which covers the background of the website"></img>
+                        {/*<img class="body-overlay" src="Assets/Media/Volcano.png" alt="An image of a volcano which covers the background of the website"></img>*/}
 
 
                         <a class="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
@@ -229,6 +229,17 @@
                                                                 <p>This entire website is an example of what I can do in terms of web development.
                                                                     I used React, HTML, and CSS to create this website. I learned a couple of things
                                                                     in making this website like how to better use javascript within a website and a little bit of how to use react.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <img class="imgFix" src="Assets/Media/ElementalChains.png" alt="an image of Elemental chains, a website I helped make" />
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <p> This is Elemental Chains, a website I helped create for a client project.
+                                                                    I worked on the back end and front end of this website using Svelte, HTML, and CSS
+                                                                    The website is a marketplace for the client's chain jewelry business.
                                                                 </p>
                                                             </div>
                                                         </div>
