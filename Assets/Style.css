@@ -116,9 +116,9 @@ section{
     border: 1px solid #fff;
     padding: 2%;
     margin-bottom: 5px;
-} .specialization-card:hover{
+} /*.specialization-card:hover{
     border-color: #8C1F00;
-}
+}*/
 .specialization-card .col-lg-3{
     text-align: center;
 }
