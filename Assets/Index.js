@@ -232,6 +232,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
+                                                        <hr />
                                                         <div class="row">
                                                             <div class="col-6">
                                                                 <img class="imgFix" src="Assets/Media/ElementalChains.png" alt="an image of Elemental chains, a website I helped make" />
