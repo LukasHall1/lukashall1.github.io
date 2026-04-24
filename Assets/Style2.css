@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(182, 0, 43);
+    height: 70px;
+    align-items: flex-end;
+}
+
+.headerH1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.headerLink {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
