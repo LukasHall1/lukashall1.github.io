@@ -1,23 +1,127 @@
 body {
-    background-color: black;
+    background-color: rgb(1, 1, 14);
+    color: #F2F0F5;
+}
+
+hr {
+    background-color: #3D1A78;
+    height: 10px;
+    border: none;
 }
 
 .header {
-    background-color: rgb(182, 0, 43);
+    background-color: rgb(41, 5, 88);
     height: 70px;
+    display: flex;
     align-items: flex-end;
 }
 
-.headerH1 {
-    color: white;
-    font-size: 50px;
-    padding-left: 50px;
+.headerH1{
+    color:  #C9C2D9;
+    display: inline-block;
 }
 
 .headerLink {
-    color: white;
+    color:  #C9C2D9;
     font-size: 20px;
     padding-bottom: 10px;
+    margin-left: 20px;
     text-decoration: none;
     display: inline-block;
+}
+
+.headerLink:hover {
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.gif {
+    width: 100%;
+    height: auto;
+    max-width:  500px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bodyLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+
+#featuredWork {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*Card stuff*/
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+}
+
+/*About me page*/
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.about-img:hover {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
 }
