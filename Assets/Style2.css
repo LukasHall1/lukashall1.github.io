@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(1, 1, 14);
+    background-color: rgb(35, 35, 37);
     color: #F2F0F5;
 }
 
@@ -82,6 +82,9 @@ hr {
 .card-link {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -124,4 +127,10 @@ hr {
     width: 100%;
     height: 50%;
     border-radius: 50%;
+}
+
+/* Project page */
+
+.pRow {
+    padding-top: 20px;
 }

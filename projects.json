@@ -1,0 +1,10 @@
+[
+    {
+        "id": "Project Sage",
+        "title": "Project Sage",
+        "project_description": "Currently in development this game is being worked on with the goal of releasing to steam. In this project the player takes the role of a college student capable of seeing the future, who must solve a murder before it happens, discovering where, who, and how before it's too late. Combining strategy and deduction, you’ll roll the dice and take on challenges to see if you can solve the mystery.",
+        "Contribution": "I am a programmer for Project sage",
+        "Gallery": ["Assets\\Media\\PS\\exampleui.png", "Assets\\Media\\PS\\projectsagetitle.png"]
+    }
+
+]
